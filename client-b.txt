@@ -2,3 +2,33 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+1. Initialize the warehouse grid with a defined number of rows and columns.
+
+2. Set the starting position of the customer on the grid (e.g., top-left corner).
+
+3. Set the target position (location that the customer needs to find).
+
+4. While the customer has not reached the target position:
+   a. Display the customer's current position.
+   
+   b. Prompt the customer to enter a direction to move ("north", "south", "east", or "west").
+   
+   c. Check the customer's input:
+      - If the input is "north":
+          i. Update the position to move up by 1 row.
+      - If the input is "south":
+          i. Update the position to move down by 1 row.
+      - If the input is "east":
+          i. Update the position to move right by 1 column.
+      - If the input is "west":
+          i. Update the position to move left by 1 column.
+      - If the input is invalid, prompt the customer again.
+
+   d. Check if the new position is within the boundaries of the grid:
+      - If the new position is within bounds, update the customer's position.
+      - If the new position is out of bounds, notify the customer and keep the original position.
+
+5. If the customer's current position matches the target position:
+   a. Print "Congratulations! You have reached the target location."
+
+6. End the program.

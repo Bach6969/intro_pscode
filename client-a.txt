@@ -2,3 +2,23 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+1. Initialize the game
+2. Set secretNumber to a random number between 1 and 10
+3. Set attempts to 3
+
+4. While attempts are greater than 0:
+   a. Prompt the player: "Guess a number between 1 and 10:"
+   b. Read player's input and store it as playerGuess
+   
+   c. If playerGuess is equal to secretNumber:
+        i. Print "Congratulations! You guessed the correct number!"
+        ii. Break the loop and end the game
+   
+   d. Else:
+        i. Subtract 1 from attempts
+        ii. If attempts are greater than 0:
+             - Print "Incorrect guess, try again. You have [attempts] left."
+        iii. If attempts are 0:
+             - Print "Sorry, you've run out of attempts. The correct number was [secretNumber]."
+
+5. End the game

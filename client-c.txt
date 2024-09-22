@@ -2,3 +2,14 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+1. Start the program
+
+2. Set the starting count to 2
+
+3. Set the maximum count to 50
+
+4. While the count is less than or equal to the maximum count:
+    a. Print the current count
+    b. Increment the count by 2
+
+5. End the program
